@@ -1,46 +1,154 @@
 # AI GTM Launch Orchestrator
 
-An AI-powered system that transforms a structured product brief into a coordinated launch package.
+An AI-powered operating system for product launches.
 
-## The Problem
+The AI GTM Launch Orchestrator transforms a structured product brief into a coordinated set of go-to-market deliverables through a single messaging strategy.
 
-Major product launches can require dozens of deliverables across messaging, sales enablement, customer communications, field readiness, and executive alignment.
+Instead of generating each asset independently, the system creates one strategic foundation that every downstream deliverable inherits.
 
-Creating those materials manually is slow, repetitive, and difficult to keep consistent. For Tier 1 launches, product marketers may need to produce up to 37 separate assets.
+---
 
-## The Solution
+## Why This Exists
 
-The AI GTM Launch Orchestrator standardizes launch planning through a structured intake process, then uses AI to generate a coordinated set of launch materials from one source of truth.
+Launching enterprise software requires dozens of deliverables across product marketing, sales enablement, content marketing, and field readiness.
 
-The system is designed for product marketers launching a new product or feature.
+Most teams recreate the same messaging repeatedly in different formats.
 
-Once the intake is complete, content generation is automated. Every output still requires human review before publication.
+The AI GTM Launch Orchestrator eliminates that duplication by generating a shared messaging strategy once, then using it to produce a complete launch package.
 
-## Public Version
+The goal is faster execution, more consistent messaging, and higher-quality launch assets.
 
-This public implementation focuses on five core deliverables:
-
-1. Messaging Source Document
-2. Ideal Customer Profile
-3. Data Sheet
-4. Pitch Deck
-5. Blog Post
-
-The Messaging Source Document acts as the foundation for the other four deliverables, helping maintain consistency across the launch package.
+---
 
 ## Workflow
 
 ```text
+                Product Marketer
+                       │
+                       ▼
+              Structured Intake
+                       │
+                       ▼
+              Strategy Model
+                       │
+                       ▼
+        Messaging Source Document
+          ┌─────────┼──────────┐
+          ▼         ▼          ▼
+        ICP     Data Sheet   Pitch Deck
+                     │
+                     ▼
+                 Blog Post
+                     │
+                     ▼
+                 Human Review
+```
+
+---
+
+## Features
+
+- Structured launch intake
+- Strategy model generation
+- Messaging source document
+- Ideal Customer Profile generation
+- Product data sheet generation
+- Sales pitch deck generation
+- Launch blog generation
+- Human review workflow
+
+---
+
+## Deliverables
+
+The public version generates:
+
+| Deliverable | Purpose |
+|-------------|----------|
+| Messaging Source Document | Strategic source of truth |
+| Ideal Customer Profile | Define the target customer |
+| Product Data Sheet | Customer-facing product overview |
+| Sales Pitch Deck | Enable sales conversations |
+| Launch Blog | Product announcement content |
+
+---
+
+## Architecture
+
+The application separates launch generation into four layers.
+
+```
+User Input
+      │
+      ▼
 Structured Intake
-        ↓
-Messaging Source Document
-        ↓
-Ideal Customer Profile
-        ↓
-Data Sheet
-        ↓
-Pitch Deck
-        ↓
-Blog Post
-        ↓
-Human QA
+      │
+      ▼
+Strategy Model
+      │
+      ▼
+Deliverable Generators
+      │
+      ▼
+Markdown Outputs
+```
+
+This separation allows every deliverable to share the same messaging strategy instead of independently generating content.
+
+---
+
+## Technology
+
+- Python
+- Streamlit
+- Claude API
+- Markdown
+- JSON
+- GitHub
+
+---
+
+## Repository Structure
+
+```
+projects/
+└── gtm-launch-orchestrator/
+    ├── docs/
+    ├── prompts/
+    ├── examples/
+    ├── assets/
+    ├── app.py
+    └── README.md
+```
+
+---
+
+## Roadmap
+
+- [x] System architecture
+- [x] Intake schema
+- [x] Strategy model
+- [x] Messaging source document
+- [ ] Streamlit application
+- [ ] AI generation pipeline
+- [ ] Deliverable rendering
+- [ ] Sample launch project
+- [ ] Docker deployment
+
+---
+
+## Design Principles
+
+The orchestrator follows five principles.
+
+- One source of truth
+- Structured inputs before generation
+- Human review before publication
+- Reusable messaging across every asset
+- Automation supports strategic decision-making rather than replacing it
+
+---
+
+## License
+
+MIT
