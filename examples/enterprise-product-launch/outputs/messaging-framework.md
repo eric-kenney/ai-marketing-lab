@@ -4,168 +4,190 @@
 
 - Product name: Atlas Knowledge
 - Product category: Enterprise AI Knowledge Platform
-- Target audience: Mid-market and enterprise organizations (500–10,000 employees) with distributed teams and significant internal documentation; economic buyer is the CIO; primary user is the IT Administrator; key influencers include IT Directors, Information Security, and Business Unit Leaders.
-- Primary customer problem: Employees waste time searching across disconnected systems, traditional search returns documents (not answers), and public AI assistants lack access to internal content and authoritative sources—leading to lost productivity and decisions based on incomplete or outdated information.
-- Primary business outcome: Reduce time spent finding internal information and increase confidence in answers through cited responses grounded in approved company content.
+- Target audience: Mid-market and enterprise organizations (500–10,000 employees) with distributed teams and extensive internal documentation across multiple business systems. Economic buyer: CIO. Primary user: IT Administrator. Key influencers: IT Directors, Information Security, Business Unit Leaders.
+- Primary customer problem: Employees waste time searching across disconnected systems and can’t easily determine which information is current and authoritative. Traditional search returns documents, not answers. Public AI assistants lack access to internal content and authoritative sources.
+- Primary business outcome: Employees find trusted, cited answers in seconds, improving productivity and reducing repetitive internal questions.
 
 ## Positioning Statement
 
-Atlas Knowledge is an enterprise AI knowledge platform that delivers trusted, cited answers from across your business systems in seconds—grounded in approved content and governed by existing permissions.
+Atlas Knowledge is an enterprise AI knowledge platform that delivers trusted, cited answers from across your business systems—so employees find information in seconds, with enterprise-grade security and governance.
 
 ## Messaging Pillars
 
 1) Trusted Answers
-- Customer challenge: Employees don’t know if the information they find is accurate or current.
-- Value proposition: Atlas Knowledge generates cited answers grounded in approved company content so teams can verify and trust what they read.
+- Customer challenge:
+  - Employees doubt whether the information they find is accurate or up to date.
+  - AI responses without attribution erode confidence.
+- Value proposition:
+  - Atlas Knowledge grounds every response in approved company content and includes citations to the original source, so employees can verify answers and act with confidence.
 - Supporting capabilities:
-  - Retrieval-augmented generation (RAG) to ground responses in approved content
-  - Citations with links to original sources
-  - Enforcement of existing user permissions and access controls
+  - Retrieval-augmented generation (RAG) to generate answers grounded in approved content.
+  - Cited responses with links to the original source.
+  - Enforcement of existing user permissions and access controls.
 - Supporting evidence:
-  - “Generates cited answers grounded in approved company information using retrieval-augmented generation (RAG).”
-  - “Enforces existing user permissions so employees only see information they are authorized to access.”
-  - Launch strategy “Trusted Answers” pillar and “Grounded AI Responses” reason to believe
+  - Reasons to Believe: Grounded AI Responses (every answer includes citations).
+  - Product Overview: Uses RAG; enforces existing user permissions.
 
 2) Unified Knowledge
-- Customer challenge: Knowledge is spread across document repositories, collaboration tools, CRM, and project management systems; employees shouldn’t need to know where to look.
-- Value proposition: One intelligent access point to enterprise knowledge without migrating content or changing existing tools.
+- Customer challenge:
+  - Knowledge is fragmented across document repositories, collaboration tools, CRM, and project management systems. Employees don’t know where to look.
+- Value proposition:
+  - Atlas Knowledge connects to the systems organizations already use, creating a single, intelligent access point for trusted knowledge without requiring content migration.
 - Supporting capabilities:
-  - Connectors to document repositories, collaboration platforms, CRM systems, and project management tools
-  - AI-powered semantic search for natural language questions
+  - Connectors to document repositories, collaboration platforms, CRM applications, and project management tools.
+  - AI-powered semantic search to understand natural language questions.
 - Supporting evidence:
-  - “Connects to enterprise knowledge sources, including document repositories, collaboration platforms, CRM systems, and project management tools.”
-  - “Uses AI-powered semantic search to understand natural language questions.”
-  - “Connects to existing enterprise systems... without requiring organizations to migrate or duplicate content.” (Reasons to Believe)
-  - Launch strategy “Unified Knowledge” pillar
+  - Product Overview: Connects to enterprise knowledge sources; uses semantic search.
+  - Reasons to Believe: Works where knowledge already lives; integrates with existing systems.
 
 3) Faster Work
-- Customer challenge: Time spent hunting for information slows work, interrupts coworkers, and drags out onboarding.
-- Value proposition: Employees get answers in seconds, reduce repetitive internal questions, and onboard faster.
+- Customer challenge:
+  - Time spent searching, re-asking known questions, and onboarding slows teams and increases operational friction.
+- Value proposition:
+  - Atlas Knowledge helps employees find answers in seconds, reducing interruptions, accelerating onboarding, and lowering the cost of finding information.
 - Supporting capabilities:
-  - Natural language Q&A across business systems
-  - Analytics on search activity, unanswered questions, and knowledge gaps to improve content over time
+  - Natural language query experience.
+  - Analytics on search activity, unanswered questions, and knowledge gaps to improve content over time.
 - Supporting evidence:
-  - Positioning: “Find information in seconds instead of searching across disconnected tools.”
-  - Business objectives: “Reduce the time employees spend searching for internal information” and “Reduce repetitive internal support and knowledge requests.”
-  - “Provides analytics on search activity, unanswered questions, and knowledge gaps.”
+  - Positioning: “Find information in seconds.”
+  - Product Overview: Provides analytics on search activity and knowledge gaps.
+  - Business Objectives: Reduce time spent searching; reduce repetitive support and knowledge requests.
 
 ## Audience Messaging
 
 CIO
-- Primary concern: Productivity gains with strong governance and security.
-- Key message: Deliver cited, source-backed answers across your systems—respecting existing permissions—so teams work faster with confidence.
+- Primary concern:
+  - Improve productivity while meeting security, governance, and compliance requirements.
+- Key message:
+  - A single, trusted knowledge experience that delivers cited answers from approved content and respects existing permissions.
 - Supporting points:
-  - Grounds responses in approved content with citations
-  - Enforces existing user permissions and access controls
-  - Connects to current systems; no content migration required
-  - Analytics identify knowledge gaps to guide improvements
-- Desired outcome: Approve pilot and organization-wide rollout plan.
+  - Cited, source-backed responses build confidence in AI-assisted work.
+  - Works with current systems—no content migration required.
+  - Enterprise-grade governance: honors existing access controls.
+  - Analytics identify knowledge gaps for continuous improvement.
+- Desired outcome:
+  - Sponsor deployment to improve workforce efficiency with responsible AI.
 
 IT Administrator
-- Primary concern: Low admin overhead and adherence to existing permission structures.
-- Key message: Centralize trusted answers without reconfiguring tools or permissions.
+- Primary concern:
+  - Minimize administrative overhead and maintain current permission models.
+- Key message:
+  - Connect once to existing repositories and apps; Atlas Knowledge enforces current permissions so users only see what they’re authorized to access.
 - Supporting points:
-  - Connectors to document, collaboration, CRM, and PM systems
-  - Respects existing access controls
-  - Analytics help prioritize content fixes
-  - No custom model training required in v1 (out of scope)
-- Desired outcome: Sponsor deployment and day‑to‑day administration.
+  - Connectors for document repositories, collaboration tools, CRM, and project management systems.
+  - Natural language search with semantic understanding reduces “where-do-I-find” tickets.
+  - Analytics highlight unanswered questions to guide content updates.
+- Desired outcome:
+  - Approve rollout that reduces internal support load without re-architecting systems.
 
 IT Director
-- Primary concern: Integration fit, deployment risk, and scalability.
-- Key message: Enterprise-ready architecture that plugs into your stack and governance model.
+- Primary concern:
+  - Integration fit, deployment requirements, and operational readiness.
+- Key message:
+  - Atlas Knowledge fits into your stack, connects to existing sources, and provides administrative controls aligned with enterprise governance.
 - Supporting points:
-  - AI-powered semantic search + RAG grounded in approved content
-  - Works with current repositories and applications; no content duplication
-  - Standard enterprise security controls; permissions enforced
-  - Clear scope for v1 (no workflow automation or content authoring)
-- Desired outcome: Endorse technical approach and integration plan.
+  - AI-powered semantic search + RAG grounded in approved content.
+  - Honors existing access controls; no duplicate content required.
+  - Clear scope for v1.0 (no workflow automation or content authoring).
+- Desired outcome:
+  - Validate technical approach and plan a controlled deployment.
 
 Information Security
-- Primary concern: Data governance, access control, and responsible AI use.
-- Key message: Answers only come from content users are authorized to access, with citations to verify sources.
+- Primary concern:
+  - Data governance, access control integrity, and responsible AI use.
+- Key message:
+  - Atlas Knowledge respects existing user permissions and only cites approved internal sources.
 - Supporting points:
-  - Enforces existing user permissions and access controls
-  - Cited responses enable auditability and review
-  - Human oversight recommended for sensitive use cases (assumption)
-  - No external customer-facing knowledge experiences in v1
-- Desired outcome: Complete security review and approve deployment standards.
+  - Enforces access controls already in place.
+  - No external customer-facing experiences in v1.0.
+  - Organizations retain human oversight for sensitive use cases.
+- Desired outcome:
+  - Approve use under current governance and monitoring practices.
 
 Business Unit Leader
-- Primary concern: Team productivity and less time spent on repeat questions and onboarding.
-- Key message: Give your team a single place to ask questions in natural language and get cited, trustworthy answers fast.
+- Primary concern:
+  - Team productivity and faster onboarding without disrupting workflows.
+- Key message:
+  - A single place to ask questions in natural language and get cited, accurate answers from your team’s trusted content.
 - Supporting points:
-  - Reduces time spent searching and interruptions
-  - Accelerates onboarding with access to approved processes and policies
-  - Analytics reveal content gaps affecting your team
-- Desired outcome: Advocate for adoption within the business unit.
+  - Reduces interruptions and repeated questions.
+  - Accelerates new-hire ramp by surfacing current processes and policies.
+  - Works with tools teams already use.
+- Desired outcome:
+  - Champion adoption within the business unit to cut time spent searching.
 
 ## Competitive Differentiation
 
 - Traditional enterprise search:
-  - Typical experience: Returns documents, not direct answers; employees must open and read multiple files.
-  - Atlas Knowledge: Delivers concise, cited answers grounded in approved content; natural language queries; respects existing permissions.
+  - Gap: Returns documents, not answers; employees must sift and assess recency/authority.
+  - Atlas Knowledge: Delivers concise answers with citations, grounded in approved content, and respects existing permissions across connected systems.
 
 - Public AI assistants:
-  - Typical experience: No access to internal systems; limited ability to cite authoritative internal sources.
-  - Atlas Knowledge: Connects to enterprise systems; grounds responses in approved internal content with citations; enforces enterprise permissions and governance.
+  - Gap: No access to internal content; limited attribution; uncertain authority.
+  - Atlas Knowledge: Uses an organization’s approved sources, provides citations to originals, and is built for enterprise governance and access controls.
 
 - Manual knowledge discovery:
-  - Typical experience: Pings to coworkers, browsing wikis and threads; slow, inconsistent, and interrupts work.
-  - Atlas Knowledge: Single access point to trusted knowledge; reduces repetitive internal questions; supports faster onboarding and decision-making.
+  - Gap: Asking coworkers and browsing multiple systems wastes time and repeats known answers.
+  - Atlas Knowledge: Natural language interface provides trusted answers in seconds and analytics to close content gaps.
 
 ## Message Hierarchy
 
-- Company message: We help organizations turn fragmented information into trusted knowledge employees can use in seconds—with enterprise governance.
-- Primary product message: Atlas Knowledge gives employees cited, trustworthy answers from across your business systems while honoring existing permissions.
-- Supporting messages:
-  1) Trusted answers grounded in approved content with citations employees can verify.
-  2) One access point to knowledge across document, collaboration, CRM, and project tools—no content migration required.
-  3) Faster work: natural language answers in seconds, fewer repeat questions, and better onboarding.
-- Call to action: Request a product demo.
+- Company message:
+  - Make institutional knowledge instantly accessible and trustworthy across the enterprise.
+
+- Primary product message:
+  - Atlas Knowledge delivers trusted, cited answers from across your business systems so employees can find information in seconds.
+
+- Three supporting messages:
+  1) Trusted answers grounded in approved content, with citations employees can verify.
+  2) A unified knowledge experience that connects to existing repositories and apps—no migration required.
+  3) Faster work through natural language search and analytics that surface and close knowledge gaps.
+
+- Call to action:
+  - Request a demo.
 
 ## Approved Claims
 
-- Atlas Knowledge is an AI-powered enterprise knowledge platform for mid-market and enterprise organizations.
-- Combines enterprise search with generative AI to deliver concise, cited responses grounded in approved company content.
-- Connects to document repositories, collaboration platforms, CRM applications, and project management tools.
-- Uses AI-powered semantic search to understand natural language questions and retrieve relevant content.
-- Uses retrieval-augmented generation (RAG) to generate responses grounded in approved content.
-- Enforces existing user permissions so employees only see information they are authorized to access.
+- Atlas Knowledge is an enterprise AI knowledge platform.
+- Helps employees find trusted answers across documentation, collaboration tools, and business applications.
+- Uses AI-powered semantic search to understand natural language questions.
+- Generates cited answers grounded in approved company information using retrieval-augmented generation (RAG).
+- Connects to enterprise knowledge sources including document repositories, collaboration platforms, CRM systems, and project management tools.
+- Enforces existing user permissions and access controls.
 - Provides analytics on search activity, unanswered questions, and knowledge gaps.
-- Helps employees find trusted answers across enterprise systems in seconds (per launch positioning).
-- Intended outcomes include reduced time spent searching, increased confidence via cited answers, increased adoption of knowledge resources, and fewer repetitive internal requests.
-- Out of scope for v1: content creation/authoring, workflow automation or task execution, external customer-facing knowledge experiences, custom AI model training or fine-tuning, and industry-specific compliance packages beyond standard enterprise security controls.
-- Organizations may require human oversight for AI-generated responses in sensitive or regulated use cases (assumption).
+- Positioned for mid-market and enterprise organizations (500–10,000 employees) with distributed teams and multiple business systems.
+- Helps employees find information in seconds instead of searching across disconnected tools.
+- Business objectives include reducing time spent searching, improving confidence via cited responses, increasing adoption of knowledge resources, and reducing repetitive internal support and knowledge requests.
+- Out of scope for v1.0: content creation/authoring, workflow automation or task execution, external customer-facing knowledge experiences, custom AI model training or fine-tuning, and industry-specific compliance packages beyond standard enterprise security controls.
 
 ## Claims Requiring Validation
 
-- Quantified productivity gains (e.g., percent time saved, ROI).
-- Accuracy rates or “most accurate” claims versus alternatives.
-- Deployment timelines, TCO, or specific cost savings.
-- Specific third-party integrations beyond the named categories (e.g., named vendors).
-- Compliance certifications or industry packages beyond standard enterprise security controls.
-- “Hallucination-free” or zero-error claims.
-- Multi-language coverage details and localization plans.
-- Benchmark comparisons to specific competitors.
+- Quantified productivity gains (e.g., percentage reduction in time spent searching).
+- Accuracy or response quality benchmarks versus alternatives.
+- Specific integration lists, counts, or timelines beyond the categories named.
+- Deployment timeframes and required implementation effort.
+- ROI, cost savings, or payback period.
+- Security certifications or compliance frameworks beyond “standard enterprise security controls.”
+- Performance metrics such as average response time in production environments.
+- Comparative “better than” claims versus specific vendors.
 
 ## Messaging Guardrails
 
 - Statements to avoid:
-  - Superlatives such as “best,” “most intelligent,” or “most accurate.”
-  - Buzzwords like “transform,” “revolutionize,” “unlock,” “cutting-edge,” “best-in-class,” or “seamless.”
-  - Claims that imply AI replaces human judgment.
-  - Capabilities out of scope for v1 (content authoring, workflow automation, external customer experiences, custom model training, industry-specific compliance).
-- Unsupported claims:
-  - Any quantified ROI or time-savings metrics.
-  - Specific integration lists beyond the stated categories.
-  - Formal compliance certifications not provided in materials.
-  - Guarantees of perfect accuracy or no hallucinations.
-- Technical terms that require explanation:
-  - Retrieval-augmented generation (RAG)
-  - Semantic search
-  - Citations and source grounding
-  - User permissions and access controls
-  - Knowledge gap analytics
+  - Superlatives without evidence (e.g., “best,” “most accurate”).
+  - Hype terms (e.g., “revolutionize,” “cutting-edge,” “best-in-class,” “seamless,” “unlock,” “transform,” “leverage”).
+  - Suggestions that AI replaces human judgment.
+  - Implying capabilities out of scope for v1.0 (content authoring, workflow automation, external customer experiences, custom model training, industry-specific compliance packs).
 
-If additional details (e.g., pricing, specific integrations, certifications) are required, they are not specified in the source materials.
+- Unsupported claims:
+  - ROI figures, percentage productivity improvements, or cost savings.
+  - Specific security certifications or regulatory compliance assertions beyond standard enterprise controls.
+  - Comprehensive integration catalogs or migration timelines.
+  - Performance guarantees or accuracy rates.
+
+- Technical terms that require explanation:
+  - Retrieval-augmented generation (RAG).
+  - Semantic search.
+  - Citations/source-backed answers.
+  - Permission enforcement/access controls.
+  - Knowledge gap analytics.
