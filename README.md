@@ -2,6 +2,12 @@
 
 Applied AI systems for product marketing and go-to-market teams.
 
+## Featured Project: AI GTM Launch Orchestrator
+
+The AI GTM Launch Orchestrator turns approved launch strategy into multiple go-to-market assets while validating the generated work against the original source material.
+
+It uses a shared strategic context to generate a messaging framework, sales battlecard, and product webpage, then independently reviews each asset for strategic alignment, unsupported claims, differentiation, and quality.
+
 > **Portfolio Project**
 >
 > AI Marketing Lab is a fictional demonstration project created to showcase AI-assisted product marketing workflows. All products, launch materials, messaging, and generated outputs are fictional and do not represent any employer, customer, or confidential information.
@@ -14,13 +20,7 @@ AI Marketing Lab explores how LLMs can help solve that problem.
 
 The goal is not to automate product marketing judgment. It is to build systems that take structured strategic inputs, apply consistent product marketing standards, accelerate execution, and preserve human review where judgment matters.
 
-## Featured Project: AI GTM Launch Orchestrator
-
-The AI GTM Launch Orchestrator turns approved launch strategy into multiple go-to-market assets while validating the generated work against the original source material.
-
-Instead of prompting an LLM independently for every deliverable, the system establishes a shared strategic context and a common set of product marketing standards that each generator uses.
-
-### How It Works
+## How It Works
 
 ```text
                     ┌─ Messaging Framework ─► Validation ─► Review
@@ -32,17 +32,17 @@ Launch Inputs ──────┼─ Sales Battlecard ─────► Valid
 
 The system begins with three structured inputs:
 
-* Product Brief
-* Launch Strategy
-* Launch Plan
+- Product Brief
+- Launch Strategy
+- Launch Plan
 
 Those inputs are loaded into a shared `LaunchContext` and remain the source of truth throughout the workflow.
 
 Each asset generator combines that context with:
 
-* A shared system prompt defining product marketing standards
-* An asset-specific prompt defining the job to be done
-* The OpenAI Responses API for generation
+- A shared system prompt defining product marketing standards
+- An asset-specific prompt defining the job to be done
+- The OpenAI Responses API for generation
 
 Every generated asset then passes through a separate validation step that compares the output against the approved launch inputs.
 
@@ -68,12 +68,12 @@ Generation is only half of the workflow.
 
 Every asset is independently reviewed against the original launch materials for:
 
-* Strategic alignment
-* Differentiation
-* Evidence and unsupported claims
-* Writing quality
-* Audience alignment
-* Completeness
+- Strategic alignment
+- Differentiation
+- Evidence and unsupported claims
+- Writing quality
+- Audience alignment
+- Completeness
 
 The validator produces a score, strengths, prioritized improvements, and an approval recommendation.
 
@@ -112,13 +112,13 @@ examples/enterprise-product-launch/inputs/
 
 The architecture deliberately separates three concerns:
 
-**Strategy**
+**Strategy**  
 The product brief, launch strategy, and launch plan define what is true.
 
-**PMM standards**
+**PMM standards**  
 Shared prompt instructions define how the system should reason and write.
 
-**Asset execution**
+**Asset execution**  
 Asset-specific prompts define what each generator needs to produce.
 
 This allows new deliverables to use the same strategic context and quality standards without rebuilding the underlying system.
@@ -213,12 +213,12 @@ The validator identifies problems and recommends action. It does not automatical
 
 ## Technology
 
-* Python
-* OpenAI Responses API
-* Markdown-based prompt architecture
-* Structured launch context
-* Environment-based model configuration
-* Git/GitHub
+- Python
+- OpenAI Responses API
+- Markdown-based prompt architecture
+- Structured launch context
+- Environment-based model configuration
+- Git/GitHub
 
 ## Current Status
 
