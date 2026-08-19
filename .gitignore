@@ -27,3 +27,5 @@ htmlcov/
 
 # Jupyter
 .ipynb_checkpoints/
+
+echo ".env" >> .gitignore
