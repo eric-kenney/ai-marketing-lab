@@ -1,14 +1,19 @@
 import os
+import sys
+from pathlib import Path
 import json
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from dotenv import load_dotenv
 
+# Add src directory to Python path
+sys.path.insert(0, str(Path(__file__).parent / 'src'))
+
 # Import your orchestrator functions
-from src.context_builder import LaunchContext
-from src.generators.messaging_framework import generate_messaging_framework
-from src.generators.sales_battlecard import generate_sales_battlecard
-from src.generators.product_webpage import generate_product_webpage
+from context_builder import LaunchContext
+from generators.messaging_framework import generate_messaging_framework
+from generators.sales_battlecard import generate_sales_battlecard
+from generators.product_webpage import generate_product_webpage
 
 load_dotenv()
 
